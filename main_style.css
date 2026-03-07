@@ -11,13 +11,19 @@ h4 {
     padding: 10px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .centerer {
-    min-height: 100vh;
     display: flex;
     justify-content: center;
 }
 
 .box {
-    border: 3px, solid, green;
-    background-color: white;
+    border: 3px double green;
+}
+
+img {
+    width: 75%;
 }
