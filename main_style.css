@@ -49,6 +49,11 @@ h2 {
     font-size: 30px;
 }
 
+a {
+    color: #f3610e;
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -70,4 +75,37 @@ h2 {
     width: 95%;
     border: 3px double #f3610e;
     margin-top: 10px;
+}
+
+.directory {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 3px double #f3610e;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.directory a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.dirimg {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border: 3px double #f91e08;
+    justify-content: right;
+    margin: 4px;
+}
+
+.dirtxt {
+    flex: 1;
+    font-size: 40px;
+    padding-left: 30px;
+    margin: 0px;
 }
