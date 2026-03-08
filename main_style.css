@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url(fonts/JetBrainsMono-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "VGA";
+    src: url(fonts/Perfect\ DOS\ VGA\ 437\ Win.woff2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-image: url(images/background.png);
     background-size: 100%;
@@ -17,7 +33,7 @@ h4 {
 
 h1 {
     text-align: center;
-    font-family: "Perfect DOS VGA 437 Win";
+    font-family: "VGA";
     font-size: 50px;
     color: #f91e08;
 }
@@ -28,7 +44,7 @@ hr {
 
 h2 {
     text-align: center;
-    font-family: "Perfect DOS VGA 437 Win";
+    font-family: "VGA";
     color: #f3610e;
     font-size: 30px;
 }
