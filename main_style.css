@@ -1,8 +1,8 @@
 body {
-    background-image: url(images/retro.png);
+    background-image: url(images/background.png);
     background-size: 100%;
     background-color: #131713;
-    color: #4f7424;
+    color: #eae5ae;
     font-family: "JetBrains Mono";
     image-rendering: pixelated;
 }
@@ -17,7 +17,20 @@ h4 {
 
 h1 {
     text-align: center;
-    font-weight: 900;
+    font-family: "Perfect DOS VGA 437 Win";
+    font-size: 50px;
+    color: #f91e08;
+}
+
+hr {
+    color: #4f7424;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Perfect DOS VGA 437 Win";
+    color: #f3610e;
+    font-size: 30px;
 }
 
 .container {
@@ -27,13 +40,13 @@ h1 {
 
 .sidebar {
     border: 3px double #4f7424;
-    width: 20%;
+    width: 27%;
     background-color: #131713;
 }
 
 .content {
     border: 3px double #4f7424;
-    width: 50%;
+    width: 70%;
     background-color: #131713;
 }
 
