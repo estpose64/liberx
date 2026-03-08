@@ -1,6 +1,10 @@
 body {
-    background-color: black;
-    color: green;
+    background-image: url(images/retro.png);
+    background-size: 100%;
+    background-color: #131713;
+    color: #4f7424;
+    font-family: "JetBrains Mono";
+    image-rendering: pixelated;
 }
 
 p {
@@ -13,17 +17,28 @@ h4 {
 
 h1 {
     text-align: center;
+    font-weight: 900;
 }
 
-.centerer {
+.container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.box {
-    border: 3px double green;
+.sidebar {
+    border: 3px double #4f7424;
+    width: 20%;
+    background-color: #131713;
 }
 
-img {
-    width: 75%;
+.content {
+    border: 3px double #4f7424;
+    width: 50%;
+    background-color: #131713;
+}
+
+.banner {
+    width: 95%;
+    border: 3px double #f3610e;
+    margin-top: 10px;
 }
