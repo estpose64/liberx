@@ -54,6 +54,12 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-family: "VGA";
+    font-size: 30px;
+    margin: 20px;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -94,7 +100,7 @@ a {
 }
 
 .dirimg {
-    width: 30%;
+    width: 70px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center;
@@ -105,7 +111,6 @@ a {
 
 .dirtxt {
     flex: 1;
-    font-size: 40px;
-    padding-left: 30px;
+    font-size: 25px;
     margin: 0px;
 }
