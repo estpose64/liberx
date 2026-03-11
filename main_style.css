@@ -58,6 +58,19 @@ h3 {
     font-family: "VGA";
     font-size: 30px;
     margin: 20px;
+    color: #f3610e;
+}
+
+table {
+    margin: auto;
+    border: 3px double #f91e08;
+}
+
+td,
+th {
+    border: 3px double #f91e08;
+    padding: 10px;
+    max-width: 256px;
 }
 
 .container {
