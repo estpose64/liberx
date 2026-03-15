@@ -152,8 +152,8 @@ h4 {
     width: 96%;
     border: 3px double #f3610e;
     margin: auto;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .picture {
