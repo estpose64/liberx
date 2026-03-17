@@ -39,7 +39,10 @@ h1 {
 }
 
 hr {
-    color: #4f7424;
+    border-top: 1px solid #4f7424;
+    border-bottom: 1px solid #4f7424;
+    height: 1px;
+    color: transparent;
 }
 
 h2 {
