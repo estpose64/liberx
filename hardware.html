@@ -86,7 +86,7 @@
             <div class="content">
                 <!--content and shit-->
                 <div class="container">
-                    <img class="banner" src="images/banner.png" />
+                    <img class="banner" src="images/banner_hardware.png" />
                 </div>
                 <h1>Hardware</h1>
                 <hr />
@@ -140,6 +140,32 @@
                         <li>Memória: 2GB DDR2</li>
                         <li>Armazenamento: 256GB HD</li>
                     </ul>
+                </div>
+                <div class="large-box">
+                    <h4>Apollo</h4>
+                    <hr />
+                    <p>
+                        O mp3 mais barato que eu consegui encontrar com envio
+                        nacional. O auto-falante dele é horrivel, mas o fone que
+                        veio com ele é até que decente. A bateria é bem bosta
+                        mas ela tabém carrega rápido então não é tão ruim. Ele
+                        também não veio com um cartão de memória.
+                    </p>
+                    <p>
+                        No anúncio dizia que tocava mp4 mas o formato de vídeo
+                        suportado é um .avi com configurações bem específicas.
+                        eu dei sorte de encontrar um comando que converte .mp4
+                        para esse formato. Mas mesmo assim essa funcionalidade é
+                        meio inútil. O comando para converter é: ffmpeg -i
+                        video.mp4 -vf "scale=160:128, transpose=2, vflip" -r 16
+                        -acodec pcm_s16le -ac 2 -ar 22050 -pix_fmt yuvj420p -c:v
+                        mjpeg -q:v 2 video.avi
+                    </p>
+                    <p>
+                        Eu abri ele pra ver se conseguia rodar algum linux, mas
+                        não tem um processador normal, só um decodificador de
+                        áudio Jointbees. O firmware dele é: yp3_2.0.43
+                    </p>
                 </div>
             </div>
         </div>
