@@ -1,1 +1,1 @@
-Liberx is my personal website, inspired by the Web Revival Movement
+Liberx é meu site pessoal.
