@@ -122,13 +122,13 @@ h4 {
 }
 
 .dirimg {
-    width: 70px;
+    width: 64px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center;
     border: 3px double #f91e08;
-    justify-content: right;
     margin: 4px;
+    margin-left: 0px;
 }
 
 .dirtxt {
