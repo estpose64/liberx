@@ -82,6 +82,11 @@ h4 {
     font-size: 24px;
 }
 
+ul {
+    list-style-type: square;
+    color: #f3610e;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
