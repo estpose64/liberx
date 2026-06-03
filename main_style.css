@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.top-bar {
+    height: 20%;
+    border: 3px double black;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.page {
+    width: 33%;
+    border: 3px double black;
+    margin: 3px;
+}
+
+.content {
+    margin: 10px;
+    border: 3px double black;
+}
